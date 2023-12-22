@@ -21,7 +21,7 @@ def gerarSequencial(faixaNotas):
                 print(ini, end =",")
                 ini += 1
                 qtdNotas +=1
-        print("Total de numerações de notas geradas: ",qtdNotas,'\n')        
+        print("\n\nTotal de numerações de notas geradas: ",qtdNotas,'\n')        
         input('Press ENTER to exit')    
     else:
         print("ERRO: QTD IMPAR das faixas de notas\n")
